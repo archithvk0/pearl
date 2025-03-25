@@ -1,0 +1,14 @@
+body {
+  background: navy;
+  text-align: center;
+  color: white;
+}
+
+#yes-button {
+  position: absolute;
+  transition: all 0.3s ease;
+}
+
+#no-button:hover + #yes-button {
+  font-size: larger;
+}

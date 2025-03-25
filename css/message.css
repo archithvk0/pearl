@@ -1,0 +1,23 @@
+body {
+  background: navy;
+  color: gold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.message-scroll {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#personal-message {
+  display: none;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
